@@ -54,16 +54,16 @@
 		"node": ">=10.0.0"
 	},
 	"devDependencies": {
-		"eslint": "latest",
-		"eslint-plugin-jsdoc": "latest",
-		"eslint-plugin-jest": "latest",
 		"all-contributors-cli": "latest",
-		"pm2": "latest",
-		"json": "latest",
-		"jest": "latest",
+		"eslint": "latest",
+		"eslint-plugin-jest": "latest",
+		"eslint-plugin-jsdoc": "latest",
 		"husky": "latest",
-		"yargs": "latest",
-		"markserv": "latest"
+		"jest": "latest",
+		"json": "latest",
+		"markserv": "latest",
+		"pm2": "latest",
+		"yargs": "latest"
 	},
 	"contributors": []
 }

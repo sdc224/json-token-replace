@@ -22,5 +22,17 @@ let json_sample = require("./json_sample.json");
 // This is where the magic happens
 let json_output = jtr.replace(json_tokens, json_sample, "{{", "}}");
 
+function findDiff(str1, str2) {
+	let diff = "";
+	str2.split("").forEach((val, i) => {
+		if (val != str1.charAt(i)) {
+			diff += val;
+		}
+	});
+	return diff;
+}
+
+console.log(findDiff(json_output.text, json_sample.text));
+
 // Test output
 console.log(json_output);

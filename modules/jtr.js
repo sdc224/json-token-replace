@@ -15,9 +15,9 @@ class JsonTokenReplace {
 	 * Replace token string {{hello}} in json with value from another json where key is token {"hello":"bye"}
 	 *
 	 * @param {Object} json_tokens - input json (mandatory, default: undefined)
-	 * @param {Object} json_input - json with tokens (optional, deafult: string)
-	 * @param {string} start - prefix token string (optional, deafult: {{)
-	 * @param {string} end - suffix token string (optional, deafult: }})
+	 * @param {Object} json_input - json with tokens (optional, default: string)
+	 * @param {string} start - prefix token string (optional, default: {{)
+	 * @param {string} end - suffix token string (optional, default: }})
 	 *
 	 * @return {Object} json - returns the json object with the replaced tokens
 	 *
